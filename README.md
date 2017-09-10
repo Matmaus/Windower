@@ -7,6 +7,14 @@ You can create many independent mosaics with different css sheets. Data can be s
 
 See ![more](exampleImages) preview images
 
+## Features
+
+* Easy to use
+* Editable CSS
+* Database or file to store records
+* Possibility to pagination of windows
+* Possibility to multiple independent windows
+
 ## Install
 
 1. Download manually Windower package. Store Windower file exactly in your root directory.
