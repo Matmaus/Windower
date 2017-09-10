@@ -5,6 +5,8 @@ You can create many independent mosaics with different css sheets. Data can be s
 
 ![Template1](exampleImages/template1.PNG)
 
+See ![more](exampleImages) preview images
+
 ## Install
 
 1. Download manually Windower package. Store Windower file exactly in your root directory.
