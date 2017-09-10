@@ -55,7 +55,7 @@ $windower_links = [
 ```
 ### Creating of instances
 
-Parameter  |Explain
+Parameter  |Explaining
 ----|----
 id | Windower ID, must be unique number from 0 to any number
 templateId | template ID, number from 1 to any umber
@@ -162,6 +162,7 @@ path to Windower folder
 Generate HTML code for FORM
 #### Parameters
 Integer or NULL. ID od item to edit
+ 
 Array or NULL. Array with editing item
 #### Return
 ```html
