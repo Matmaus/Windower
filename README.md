@@ -1,7 +1,5 @@
 # Simple Windower - BETA
 
-[![Software License][ico-license]](LICENSE)
-
 If you need a simple editable mosaic which seems like Google Chrome home page, this package is right for you.  
 You can create many independent mosaics with different css sheets. Data can be stored in database or file. 
 
@@ -277,4 +275,4 @@ HTML output will be following:
 ```
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
