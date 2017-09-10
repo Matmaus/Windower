@@ -55,6 +55,16 @@ $windower_links = [
 ```
 ### Creating of instances
 
+Parameter  |Explain
+----|----
+id | Windower ID, must be unique number from 0 to any number
+templateId | template ID, number from 1 to any umber
+limit | limit of shown windows. Can be NULL or value from 1 to any number
+database | PDO or NULL if database is not needed
+fileName | NULL or name of file where will be stored content about windows. Example: `array.txt`
+$windower_links | array with configured links and paths
+reverse | can be true or false. False is set as default
+
 Example:
 ```php
 //file
@@ -65,24 +75,6 @@ $windower_array[0] = &$myWindower;
 $anotheWindower = new Windower(1, 1, NULL, $db, NULL, $windower_links);
 $windower_array[1] = &$anotheWindower;
 ```
-Explaining :
-* id: Windower ID, must be unique number from 0 to any number
-* templateId: template ID, number from 1 to any umber
-* limit: limit of shown windows. Can be NULL or value from 1 to any number
-* database: PDO or NULL if database is not needed
-* fileName: NULL or name of file where will be stored content about windows. Example: `array.txt`
-* $windower_links - array with configured links and paths
-* reverse: can be true or false. False is set as default
-
-Parameter  |Explain
-----|----
-id | Windower ID, must be unique number from 0 to any number
-templateId | template ID, number from 1 to any umber
-limit | limit of shown windows. Can be NULL or value from 1 to any number
-database | PDO or NULL if database is not needed
-fileName | NULL or name of file where will be stored content about windows. Example: `array.txt`
-$windower_links | array with configured links and paths
-reverse | can be true or false. False is set as default
 
 ## Usage
 
