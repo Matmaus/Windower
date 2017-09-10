@@ -154,10 +154,10 @@ h1 {
 }
 
 .windower_main_2 .windower_side .windower_side_body .windower_side_edit_link .windower_side_edit_img {
-	max-width: 65%;
+	max-width: 60%;
 	height: auto;
-	max-height: 120px;
-	padding-top: 35px;
+	max-height: 80px;
+	padding-top: 25px;
 }
 
 /*
