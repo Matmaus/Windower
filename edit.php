@@ -14,8 +14,10 @@
 	if (isset($_POST['submit'])) {
 		if ($_POST['order'] == 0)
 			die('You can not set position to 0');
-		else if ($_POST['order'] > $windower_item->getLast())
+		else if (isset($_GET['mv']) && $_POST['order'] > $windower_item->getLast())
 			die('You can not set position to value bigger than count of windows');
+		else if ($_POST['order'] > $windower_item->getLast() + 1)
+			die('You can not set position to value bigger than count of windows + 1');
 	}
 
 	if (isset($_GET['mv'])) {
