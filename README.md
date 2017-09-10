@@ -115,7 +115,7 @@ Offset or first visible window. Can be integer or NULL.
     </div>
     <div class="windower_side_body">
         <a href=" https://www.google.sk " class="windower_side_link">
-            <img src=" http://localhost/Windower/facebook.png" class="windower_side_img">
+            <img src=" http://localhost/myPage/google.png" class="windower_side_img">
         </a>
     </div>
 </div>
@@ -143,7 +143,7 @@ path to Windower folder
 ```html
 <div class="windower_side">
     <div class="windower_side_top">
-        <h2>Facebook</h2>
+        <h2>Google</h2>
     </div>
     <div class="windower_side_body">
         <a href=" http://localhost/myPage/dir/edit.php?id=0&mv=1 " class="windower_side_edit_link">
@@ -264,11 +264,11 @@ HTML output will be following:
 ```html
 <div class="windower_side">
     <div class="windower_side_top">
-        <h2>Fakebook</h2>
+        <h2>Google</h2>
     </div>
     <div class="windower_side_body">
-        <a href=" www.google.sk " class="windower_side_link">
-            <img src=" http://localhost/Windower/facebook.png" class="windower_side_img">
+        <a href=" https://www.google.sk " class="windower_side_link">
+            <img src=" http://localhost/myPage/google.png" class="windower_side_img">
         </a>
     </div>
 </div>
