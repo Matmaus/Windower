@@ -10,11 +10,11 @@
 
 	//set URLs an PATHs
 	$windower_links = [
-		"baseUrl"  => "http://localhost/myPage/",
-		"filePath" => "C:\\dir\\www\\myPage\\",
-		"editUrl"  => "http://localhost/myPage/Windower/edit.php",
-		"imgsUrl"  => "http://localhost/myPage/",
-		"sheetUrl" => "http://localhost/myPage/Windower/windower_style.css"
+		"baseUrl"  => "",
+		"filePath" => "",
+		"editUrl"  => "",
+		"imgsUrl"  => "",
+		"sheetUrl" => ""
 	];
 
 	//set as many windower as you wish
