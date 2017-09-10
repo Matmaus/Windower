@@ -1,0 +1,192 @@
+/*
+	MAIN
+			*/
+/* body {
+	width: 100%;
+	margin: 0px;
+	min-height: 600px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 45px 0px;
+} */
+/*
+	TEMPLATE_1
+				*/
+.windower_main_1 {
+	width: 70%;
+	height: auto;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.windower_main_1:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.windower_main_1 .windower_side {
+	box-sizing: border-box;
+	width: 23%;
+	float: left;
+	margin: 1%;
+	height: 160px;
+	border: 1px solid gray;
+}
+
+.windower_main_1 .windower_side .windower_side_top {
+	width: 100%;
+	height: 20%;
+	border-bottom: 1px solid gray;
+}
+
+.windower_main_1 .windower_side .windower_side_top h2 {
+	font-size: 26px;
+	margin: 0px;
+}
+
+.windower_main_1 .windower_side .windower_side_body {
+	width: 100%;
+	height: 80%;
+}
+
+.windower_main_1 .windower_side .windower_side_body .windower_side_body_link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.windower_main_1 .windower_side .windower_side_body  .windower_side_link .windower_side_img {
+	max-width: 90%;
+	height: auto;
+	max-height: 120px;
+	padding-top: 2px;
+}
+.windower_edit_button_1 {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: "Droid Sans";
+	color: gray;
+}
+
+.windower_main_1 .windower_side .windower_side_body .windower_side_edit_link {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.windower_main_1 .windower_side .windower_side_body .windower_side_edit_link .windower_side_edit_img {
+	max-width: 100%;
+	height: auto;
+	max-height: 120px;
+	padding-top: 2px;
+}
+
+/*
+	TEMPLATE_2
+				*/
+.windower_main_2 {
+	width: 70%;
+	height: auto;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.windower_main_2:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.windower_main_2 .windower_side {
+	box-sizing: border-box;
+	width: 23%;
+	float: left;
+	margin: 1%;
+	height: 160px;
+	border: 2px dotted red;
+	border-radius: 50%;
+}
+
+.windower_main_2 .windower_side .windower_side_top {
+	width: 100%;
+	height: 20%;
+}
+
+.windower_main_2 .windower_side .windower_side_top h2 {
+	font-size: 26px;
+	margin: 0px;
+}
+
+.windower_main_2 .windower_side .windower_side_body {
+	width: 100%;
+	height: 80%;
+}
+
+.windower_main_2 .windower_side .windower_side_body .windower_side_link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.windower_main_2 .windower_side .windower_side_body .windower_side_link .windower_side_img {
+	max-width: 90%;
+	height: auto;
+	max-height: 120px;
+	padding-top: 2px;
+}
+
+.windower_edit_button_2 {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Vijaya;
+	color: red;
+}
+
+.windower_main_2 .windower_side .windower_side_body .windower_side_edit_link {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.windower_main_2 .windower_side .windower_side_body .windower_side_edit_link .windower_side_edit_img {
+	max-width: 65%;
+	height: auto;
+	max-height: 120px;
+	padding-top: 35px;
+}
+
+/*
+	TEMPLATE_3
+				*/
+/*
+.windower_main_3 {}
+
+.windower_main_3:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.windower_main_3 .windower_side {}
+
+.windower_main_3 .windower_side .windower_side_top {}
+
+.windower_main_3 .windower_side .windower_side_top h2 {}
+
+.windower_main_3 .windower_side .windower_side_body {}
+
+.windower_main_3 .windower_side .windower_side_body .windower_side_link {}
+
+.windower_main_3 .windower_side .windower_side_body .windower_side_link .windower_side_img {}
+
+.windower_edit_button_3 {}
+
+.windower_main_3 .windower_side .windower_side_body .windower_side_edit_link {}
+
+.windower_main_3 .windower_side .windower_side_body .windower_side_edit_link .windower_side_edit_img {}
+*/
