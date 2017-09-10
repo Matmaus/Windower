@@ -3,6 +3,7 @@
 If you need a simple editable mosaic which seems like Google Chrome home page, this package is right for you.  
 You can create many independent mosaics with different css sheets. Data can be stored in database or file. 
 
+![Template1](template1.png)
 
 ## Install
 
