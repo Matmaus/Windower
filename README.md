@@ -1,7 +1,6 @@
 # Simple Windower - BETA
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
+[![Software License][ico-license]](LICENSE)
 
 If you need a simple editable mosaic which seems like Google Chrome home page, this package is right for you.  
 You can create many independent mosaics with different css sheets. Data can be stored in database or file. 
