@@ -24,7 +24,7 @@ See ![more](exampleImages) preview images
 5. Configure database using PDO, if you want to use it and if it was not configured yet.
 6. Insert link to style sheets everywhere you wish to show Windower windows.
 7. Create objects, as many as you wish, and make sure you set IDs correctly.
-8. Call public methods ont your objects, to generate HTML code. Make sure you use ECHO on it.
+8. Call public methods on your objects, to generate HTML code. Make sure you use ECHO on it.
 
 ## Configure
 
