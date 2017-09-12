@@ -18,7 +18,7 @@ See ![more](exampleImages) preview images
 
 ## Install
 
-1. Download manually Windower package. Store Windower file exactly in your root directory.
+1. Download manually Windower package. Store Windower folder exactly in your root directory.
 2. OPTIONAL - You can store `edit.php` and `windower_style.css` files wherever you want.
 3. Configure `config.php` file inside Windower directory.
 4. In `edit.php`, set `$windowerUrl` to correct value.
@@ -30,7 +30,7 @@ See ![more](exampleImages) preview images
 ## Configure
 
 ### Database
-If you did not use PDO brefore, here is a example:
+If you did not use PDO before, here is a example:
 
 ```php
 $db_config = [
