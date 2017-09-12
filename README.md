@@ -14,6 +14,7 @@ See ![more](exampleImages) preview images
 * Database or file to store records
 * Possibility to pagination of windows
 * Possibility to multiple independent windows
+* Window consist of title, image and link
 
 ## Install
 
