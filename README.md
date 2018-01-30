@@ -21,7 +21,7 @@ See [more](exampleImages) preview images
 1. Download manually Windower package. Store Windower folder exactly in your root directory.
 2. OPTIONAL - You can store `edit.php` and `windower_style.css` files wherever you want.
 3. Configure `config.php` file inside Windower directory. See "Configure" section for more information.
-4. In `edit.php`, set `$windowerUrl` to full URL address directed exactly to `.../Windower/` directory and `require_once` to full PATH directed to `...\\Windower\\config.php` file (`.../Windower/config.php` on Linux).
+4. In `edit.php`, set `$windowerUrl` to full URL address directed to `.../Windower/` directory and `require_once` to full PATH directed to `...\\Windower\\config.php` file (`.../Windower/config.php` on Linux).
 5. Configure database using PDO, if you want to use it and if it was not configured yet.
 6. Insert link to style sheets everywhere you wish to show Windower windows.
 7. Create objects, as many as you wish, and make sure you set IDs correctly.
