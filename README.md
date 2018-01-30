@@ -288,6 +288,9 @@ HTML output will be following:
     </div>
 </div>
 ```
+
+![HTMLstructure](exampleImages/html_structure.PNG)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
