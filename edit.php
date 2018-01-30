@@ -1,8 +1,7 @@
 <?php
 	//CONFIG
-	$windowerUrl = '../Windower';	//set correct path
-
-	require_once "$windowerUrl/config.php";
+	$windowerUrl = '........Windower';      // set full URL
+	require_once "..........config.php";    // set full PATH
 
 	foreach ($windower_array as $item) {
 		if ($item->getId() == $_GET['id']) {
