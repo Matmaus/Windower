@@ -289,7 +289,7 @@ HTML output will be following:
 </div>
 ```
 
-![HTMLstructure](exampleImages/html_structure.PNG)
+![HTMLstructure](exampleImages/html_structure.png)
 
 ## License
 
