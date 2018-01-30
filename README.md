@@ -153,8 +153,6 @@ Generate HTML code for edit button
 
 ### `makeEditWindow()`
 Generate HTML code for displaying windows in edit mode
-#### Parameters
-path to Windower folder
 #### Return
 ```html
 <div class="windower_side">
@@ -290,6 +288,8 @@ HTML output will be following:
     </div>
 </div>
 ```
+![HTMLstructure](exampleImages/html_structure.png)
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
