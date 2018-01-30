@@ -5,7 +5,7 @@ You can create many independent mosaics with different css sheets. Data can be s
 
 ![Template1](exampleImages/template1.PNG)
 
-See ![more](exampleImages) preview images
+See ![more](Matmaus/Windower/exampleImages) preview images
 
 ## Features
 
