@@ -21,8 +21,9 @@ See [more](exampleImages) preview images
 1. Download manually Windower package. Store Windower folder exactly in your root directory.
 2. OPTIONAL - You can store `edit.php` and `windower_style.css` files wherever you want.
 3. Configure `config.php` file inside Windower directory. See "Configure" section for more information.
-4. In `edit.php`, set `$windowerUrl` to full URL address directed to `.../Windower/` directory and `require_once` to full PATH directed to `...\\Windower\\config.php` file (`.../Windower/config.php` on Linux).
-5. Configure database using PDO, if you want to use it and if it was not configured yet.
+4. In `edit.php` set `require_once` to full PATH directed to `Windower/config.php` file.
+5. Configure database using PDO, if you want to use it and if it was not configured yet.  
+If you don't want to use database, make a file or files to store records of your windows. If using Linux, don't forget to set RW rules to them for correct working with them.
 6. Insert link to style sheets everywhere you wish to show Windower windows.
 7. Create objects, as many as you wish, and make sure you set IDs correctly.
 8. Call public methods on your objects, to generate HTML code. Make sure you use ECHO on it.
@@ -52,7 +53,8 @@ You need just to change parameters in `$db_config[]`.
 
 ### Links a Paths
 
-Make sure to configure this right.
+Make sure to configure this right.  
+`baseUrl`, `filePath` and `imgsUrl` must be ended with slash or backslash
 
 Here is one example of it:
 
@@ -151,8 +153,6 @@ Generate HTML code for edit button
 
 ### `makeEditWindow()`
 Generate HTML code for displaying windows in edit mode
-#### Parameters
-path to Windower folder
 #### Return
 ```html
 <div class="windower_side">
@@ -288,7 +288,6 @@ HTML output will be following:
     </div>
 </div>
 ```
-
 ![HTMLstructure](exampleImages/html_structure.png)
 
 ## License
