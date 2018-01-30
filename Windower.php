@@ -324,12 +324,11 @@
 		/**
 		 * Generate HTML code for displaying windows in edit mode
 		 *
-		 * @param $windowerUrl
-		 *
 		 * @return string
 		 */
-		public function makeEditWindow($windowerUrl)
+		public function makeEditWindow()
 		{
+			$windowerUrl = $this->baseUrl . "Windower/";
 			//$windowerUrl = filter_var($windowerUrl, FILTER_SANITIZE_URL);
 
 			$windows = "<div class=\"windower_main_".$this->templateId."\">";

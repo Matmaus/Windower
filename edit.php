@@ -1,7 +1,6 @@
 <?php
 	//CONFIG
-	$windowerUrl = '........Windower';      // set full URL
-	require_once "..........config.php";    // set full PATH
+	require_once "...config.php";    // set full PATH
 
 	foreach ($windower_array as $item) {
 		if ($item->getId() == $_GET['id']) {
@@ -65,7 +64,7 @@
 <body>
 	<h1>HOME</h1>
 	<?php
-		echo $windower_item->makeEditWindow($windowerUrl);
+		echo $windower_item->makeEditWindow();
 		echo $windower_item->makeEditForm((isset($_GET['mv']) ? $_GET['mv'] : NULL), ((isset($edit)) ? $edit : NULL));
 	?>
 	<a href="<?= $windower_item->getBaseUrl(); ?>">home</a>
