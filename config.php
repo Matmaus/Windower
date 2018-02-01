@@ -14,13 +14,13 @@
 	//setup database if you need it and you did not configured it yet
 
 	//set URLs an PATHs
-	//NOTE: baseUrl, filePath and imgsUrl must be ended with slash or backslash
+	//NOTE: baseUrl, basePath and imgsUrl must be ended with slash or backslash
 	$windower_links = [
 		"baseUrl"  => "",
-		"filePath" => "",
-		"editUrl"  => "",
+		"basePath" => "",
+		"editUrl"  => "...edit.php",
 		"imgsUrl"  => "",
-		"sheetUrl" => ""
+		"sheetUrl" => "...windower_style.css"
 	];
 
 	//set as many windower as you wish

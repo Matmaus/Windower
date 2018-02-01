@@ -46,7 +46,7 @@
 				die('Both database and file was given at the same object');
 
 			if ($fileName != NULL) {
-				$this->fileName = $windower_links['filePath'].$fileName;
+				$this->fileName = $windower_links['basePath'].$fileName;
 				$this->file     = file($this->fileName);
 				if (!$this->file)
 					die('Problem with opening a file');

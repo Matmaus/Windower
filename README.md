@@ -54,14 +54,14 @@ You need just to change parameters in `$db_config[]`.
 ### Links a Paths
 
 Make sure to configure this right.  
-`baseUrl`, `filePath` and `imgsUrl` must be ended with slash or backslash
+`baseUrl`, `basePath` and `imgsUrl` must be ended with slash or backslash
 
 Here is one example of it:
 
 ```php
 $windower_links = [
     "baseUrl"  => "http://localhost/MyPage/",
-    "filePath" => "C:\\dir\\www\\MyPage\\",
+    "basePath" => "C:\\dir\\www\\MyPage\\",
     "editUrl"  => "http://localhost/MyPage/pages/edit.php",
     "imgsUrl"  => "http://localhost/MyPage/images/",
     "sheetUrl" => "http://localhost/MyPage/css/windower_style.css"
