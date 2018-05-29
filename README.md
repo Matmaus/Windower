@@ -49,7 +49,7 @@ $db = new PDO(
     $db_config['username'], $db_config['password']
 );
 ```
-You need just to change parameters in `$db_config[]`.
+You need just to change values in `$db_config[]`.
 
 ### Links a Paths
 
